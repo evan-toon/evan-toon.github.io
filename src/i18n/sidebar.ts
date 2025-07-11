@@ -7,17 +7,15 @@ type SidebarSchema = {
     'sidebar-config': string
     'writing-docs': string
     'styling-config': string
-    deploying: string
   }
 }
 
 export const SIDEBAR: SidebarSchema = {
   en: {
     introduction: 'Introduction',
-    'getting-started': 'Getting started',
-    'sidebar-config': 'Sidebar config',
-    'writing-docs': 'Writing docs',
-    'styling-config': 'Styling config',
-    deploying: 'Deploying',
+    'getting-started': 'CV',
+    'sidebar-config': 'Research',
+    'writing-docs': 'Academics',
+    'styling-config': 'Hobbies',
   },
 }
