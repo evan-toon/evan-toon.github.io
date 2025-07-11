@@ -5,7 +5,7 @@ export const PROJECT_NAME = 'Stellar'
 // used for landing page heading and nav home link
 
 export const SITE = {
-  title: 'Stellar',
+  title: 'Evan Toon',
   description: 'Modern type-safe documentation theme for Astro.',
   defaultLanguage: 'en_US', // don't mistaken this with DEFAULT_LANGUAGE_CODE below, this is used only for meta tags
 }
@@ -17,7 +17,7 @@ export const DEFAULT_LANGUAGE_CODE: LanguageKeys = 'en'
 export const TWITTER_USERNAME = null
 // enter your twitter username if you have it
 
-export const GITHUB_REPO_URL = 'https://github.com/ekmas/stellar'
+export const GITHUB_REPO_URL = 'https://github.com/evan-toon'
 
 export const GITHUB_EDIT_URL = GITHUB_REPO_URL + '/edit/main/src/pages/'
 // used for edit url link at the bottom of each page in docs so users can edit it
@@ -26,7 +26,7 @@ export const GITHUB_EDIT_URL = GITHUB_REPO_URL + '/edit/main/src/pages/'
 export const GET_STARTED_LINK = 'https://evan-toon.github.io/'
 // used for landing page and nav link (just type it without language path)
 
-export const SINGLE_LANGUAGE = false
+export const SINGLE_LANGUAGE = true
 // set this to true if you want to use only one language
 
 export const OG_IMAGE = 'og.png'
