@@ -5,8 +5,7 @@ type LanguageObject<T> = {
 }
 
 export const LANGUAGES = {
-  en: 'English',
-  sr: 'Srpski',
+  en: 'English'
 } as const
 
 export type LandingPageObj = {
@@ -21,11 +20,6 @@ export const LANDING_PAGE: LanguageObject<LandingPageObj> = {
     getStartedBtnText: 'Get started',
     githubBtnText: 'Source code',
   },
-  sr: {
-    description: 'Moderna Astro tema za dokumentaciju sa Typescript podrškom.',
-    getStartedBtnText: 'Počni',
-    githubBtnText: 'Izvorni kod',
-  },
 } as const
 
 export const NAV: LanguageObject<{
@@ -33,9 +27,6 @@ export const NAV: LanguageObject<{
 }> = {
   en: {
     documentation: 'Docs',
-  },
-  sr: {
-    documentation: 'Dokumentacija',
   },
 } as const
 
@@ -46,10 +37,6 @@ export const ON_THIS_PAGE: LanguageObject<{
   en: {
     onThisPage: 'On this page',
     scrollToTop: 'Scroll to top',
-  },
-  sr: {
-    onThisPage: 'Na ovoj stranici',
-    scrollToTop: 'Skroluj do vrha',
   },
 }
 
@@ -62,11 +49,6 @@ export const MISC: LanguageObject<{
     editThisPage: 'Edit this page',
     next: 'Next',
     previous: 'Previous',
-  },
-  sr: {
-    editThisPage: 'Uredi ovu stranicu',
-    next: 'Sledeće',
-    previous: 'Prethodno',
   },
 }
 
@@ -81,11 +63,5 @@ export const SEARCH: LanguageObject<{
     keepTyping: 'Keep typing...',
     noResults: 'No results',
     results: 'Results',
-  },
-  sr: {
-    search: 'Pretraži',
-    keepTyping: 'Nastavi da kucaš...',
-    noResults: 'Nema rezultata',
-    results: 'Rezultata',
   },
 }
