@@ -29,7 +29,7 @@ const docsLink = isDefaultLandingPage
 const getDocs = async () => {
   let docs: null | MarkdownInstance<any>[] = null
 
-docs = await Astro.glob('@/pages/en/**')
+docs = await Astro.glob(`@/pages/en/**`)
 
   return docs.map((doc: MarkdownInstance<any>) => {
     return {
